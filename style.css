@@ -71,11 +71,17 @@ body{
 .team section-padding{
     display:row;
 }
-.ramdan{
-    text-align:center;
-    padding:25px;
-    justify-content:center;
+
+#more {display: none;}
+
+.hide{
+    list-style-type: none;
 }
+
+.sosial {
+    margin: auto
+}
+
 .portfolio .card{
     box-shadow: 15px 15px 40px #000000;
 }

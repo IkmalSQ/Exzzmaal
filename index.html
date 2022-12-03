@@ -6,6 +6,38 @@
     <title>EXZSAHABATEKNO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+        function myFunctions() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light" >
@@ -80,28 +112,29 @@
      </section>
        <br>
       <!-- About -->
-      <section id="about" class="about-section-padding">
-        <div class="container">
-            <div class="col-lg-4 col-md12 col-12 ">
-                <div class="about-img">
-                    <img src="https://th.bing.com/th/id/OIP.TffP004cfYywpdrag1Ns3AHaE8?pid=ImgDet&rs=1" alt="" width="500px">
+        <section id="about" class="about-section-padding">
+            <div class="">
+                <div class="col-lg-4 col-md12 col-12 ">
+                    <div class="about-img">
+                        <img src="https://th.bing.com/th/id/OIP.TffP004cfYywpdrag1Ns3AHaE8?pid=ImgDet&rs=1" alt="" width="500px">
+                    </div>
                 </div>
-            </div
-            <div class="col-lg-12 col-md-12 col-12 ps-lg-4 mt-md-5 ">
-                <div class="about-text" >
-                    <h2>Hacking</h2>
-                    <p>Jika selama ini kamu masih berpikir bahwa semua jenis hacker adalah kriminal, sekarang adalah saat yang tepat untuk membuang pikiran tersebut jauh-jauh. 
-                        Pasalnya, terdapat tiga jenis hacker, yaitu black hat, white hat, dan juga grey hat.
-                        Black hat adalah jenis hacker yang melakukan kegiatan ilegal, sedangkan grey hat memiliki motif baik walaupun praktiknya terkadang ilegal.
-                        Untuk white hat, merekalah yang melakukan kegiatan ethical hacking. Mereka juga biasa disebut dengan istilah ethical hacker.
-                        Dilansir dari Geeks for Geeks, ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.
-                        Jadi, mereka mencari celah di sebuah jaringan, lalu melaporkannya ke pihak terkait seperti manajemen. 
-                        Hal ini dilakukan guna mencegah ancaman dari hacker jahat yang berniat mencuri data pribadi, merusak jaringan sebuah website, dan masih banyak lagi.</p>
-                    <a href="https://glints.com/id/lowongan/ethical-hacking-adalah/#.Y3ydSUlBzIU" class="btn btn-warning">Informasi Lengkapnya</a>
+                <div class="col-lg-12 col-md-12 col-12 ps-lg-4 mt-md-5 ">
+                    <div class="about-text" >
+                        <h2>Hacking</h2>
+                        <p>Jika selama ini kamu masih berpikir bahwa semua jenis hacker adalah kriminal, sekarang adalah saat yang tepat untuk membuang pikiran tersebut jauh-jauh. 
+                            Pasalnya, terdapat tiga jenis hacker, yaitu black hat, white hat, dan juga grey hat.
+                            Black hat adalah jenis hacker yang melakukan kegiatan ilegal, sedangkan grey hat memiliki motif baik walaupun praktiknya terkadang ilegal.
+                            Untuk white hat, merekalah yang melakukan kegiatan ethical hacking. Mereka juga biasa disebut dengan istilah ethical hacker.
+                            Dilansir dari Geeks for Geeks, ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.
+                            Jadi, mereka mencari celah di sebuah jaringan, lalu melaporkannya ke pihak terkait seperti manajemen. 
+                            Hal ini dilakukan guna mencegah ancaman dari hacker jahat yang berniat mencuri data pribadi, merusak jaringan sebuah website, dan masih banyak lagi.</p>
+                        <a href="https://glints.com/id/lowongan/ethical-hacking-adalah/#.Y3ydSUlBzIU" class="btn btn-warning">Informasi Lengkapnya</a>
+                    </div>
+                    </br>
                 </div>
-                <br>
             </div>
-            <div class="container">
+            <div class="">
                 <div class="col-lg-4 col-md12 col-12 ">
                     <div class="about-img">
                         <img src="https://i.ytimg.com/vi/l3rgXLI7CKY/maxresdefault.jpg" alt="Kali Linux" width="500px">
@@ -124,26 +157,27 @@
                             
                             Sebagai sistem operasi modern Linux mendukung banyak sekali hardware yang beredar di pasaran tapi beberapa memang tidak didukung karena masalah teknis atau sekelompok sukarelawan sedang sedang mengusahakan driver-nya. Untuk mengecek hardware apa saja yang bisa berjalan di bawah Linux silakan lihat hardware compability di Redhat
 
-                             </p>
-                        <a href="#" class="btn btn-warning">learn more</a>
+                            </p>
+                        <a href="https://codepolitan.com/blog/kali-linux-senjata-hacking-reinkarnasi-backtrack" class="btn btn-warning">Informasi Selanjutnya</a>
                     </div>
                 </div>
                 <br>
-                <div class="container">
-                    <div class="col-lg-4 col-md12 col-12 ">
-                        <div class="about-img">
-                            <img src="https://th.bing.com/th/id/R.6762ce45c737628aa0927f04c78dde0d?rik=SSVCtRq5MZzx1g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fQO0ZTcA.jpg&ehk=VSjcjV2TjttZqMDS%2bnDGkMn%2f0AUDnYSpamiyMi8V6b4%3d&risl=&pid=ImgRaw&r=0" alt="" width="500px">
-                        </div>
+                <div class="">
+                <div class="col-lg-4 col-md12 col-12 ">
+                    <div class="about-img">
+                        <img src="https://th.bing.com/th/id/R.6762ce45c737628aa0927f04c78dde0d?rik=SSVCtRq5MZzx1g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fQO0ZTcA.jpg&ehk=VSjcjV2TjttZqMDS%2bnDGkMn%2f0AUDnYSpamiyMi8V6b4%3d&risl=&pid=ImgRaw&r=0" alt="" width="500px">
                     </div>
-                    <div class="col-lg-12 col-md-12 col-12 ps-lg-4 mt-md-5 ">
-                        <div class="about-text" >
-                            <h2>Robotika</h2>
-                            <p>Kata robot berasal dari Robota (bahasa cheko) yang artinya adalah pekerja yang tidak punya lelah dan bosa. Robot merupakan sebuah perangkat mekanik yang dapat menjalankan tugas-tugas baik itu dibawah kendali dan pengawasan manusia atau dijalankan melalui serangkaian program yang terlebih dahulu telah didefinisikan Apa Itu Teknologi Robotik Robot adalah mesin yang dapat melakukan tindakan kompleks secara otomatis. Mereka umumnya membutuhkan tiga elemen: sensor seperti kamera, lidar, atau mikrofon; aktuator seperti motor, piston atau otot buatan, dan pengontrol.</p>
-                            <a href="#" class="btn btn-warning">Informasi lengkapnya</a>
-                        </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12 ps-lg-4 mt-md-5 ">
+                    <div class="about-text" >
+                        <h2>Robotika</h2>
+                        <p>Kata robot berasal dari Robota (bahasa cheko) yang artinya adalah pekerja yang tidak punya lelah dan bosa. Robot merupakan sebuah perangkat mekanik yang dapat menjalankan tugas-tugas baik itu dibawah kendali dan pengawasan manusia atau dijalankan melalui serangkaian program yang terlebih dahulu telah didefinisikan Apa Itu Teknologi Robotik Robot adalah mesin yang dapat melakukan tindakan kompleks secara otomatis. Mereka umumnya membutuhkan tiga elemen: sensor seperti kamera, lidar, atau mikrofon; aktuator seperti motor, piston atau otot buatan, dan pengontrol.</p>
+                        <a href="https://kepegawaian.uma.ac.id/tinjauan-singkat-robotika/" class="btn btn-warning">Informasi lengkapnya</a>
                     </div>
-        </div>
-      </section>
+                </div>
+                </div>
+            </div>
+        </section>
       <!-- service -->
       <section id="services" class="services section-padding">
         <div class="container">
@@ -162,8 +196,8 @@
                         <div class="card-body">
                             <i class="bi bi-subtract"></i>
                             <h3 class="card-title">SQL INJECTION</h3>
-                            <p class="lead">Kegunaan SQL INJECTION</p>
-                            <button class="btn btn-warning text-drak" a href="https://www.youtube.com/watch?v=HGIYjXnLSSE&list=PLn8rJDl0kSc4-o1ewkJ4VtKF-_0RQKJoN">Informasi Selanjutnya </button>
+                            <p class="lead">Rekomendasi Belajar SQL INJECTION</p>
+                            <a href="https://www.youtube.com/watch?v=cx6Xs3F_1Uc"><button class="btn btn-warning text-drak">Informasi Selanjutnya</button></a>
                         </div>
                     </div>
                 </div>
@@ -172,8 +206,8 @@
                         <div class="card-body">
                             <i class="bi bi-slack"></i>
                             <h3 class="card-title">Kali Linux</h3>
-                            <p class="lead">Kegunaan Kali Linux</p>
-                            <button class="btn btn-warning text-drak" a hreef="https://www.youtube.com/watch?v=9SjFHihNFM0">Informasi Selanjutnya</button>
+                            <p class="lead">Rekomendasi Belajar Kali Linux</p>
+                            <a href="https://www.youtube.com/watch?v=WUMo7LMRdwA"><button class="btn btn-warning text-drak">Informasi Selanjutnya</button></a>
                         </div>
                     </div>
                 </div>
@@ -182,8 +216,8 @@
                         <div class="card-body">
                             <i class="bi bi-playstation"></i>
                             <h3 class="card-title">Python</h3>
-                            <p class="lead">Belajar Robot</p>
-                            <button class="btn btn-warning text-drak" a hreef="https://www.youtube.com/watch?v=eXVRsjVjUsI">Informasi Selanjutnya</button>
+                            <p class="lead">Rekomendasi Belajar Robot</p>
+                          <a href="https://www.youtube.com/watch?v=iA8lLwmtKQM"><button class="btn btn-warning text-drak">Informasi Selanjutnya</button></a>
                         </div>
                     </div>
                 </div>
@@ -213,9 +247,10 @@
                                 Tanggal: 2013-2014
                                 Dampak: 3 miliar akun pengguna
                                 Yahoo mengumumkan pada September 2016 bahwa pada tahun 2014 telah menjadi korban peretasan data terbesar yang pernah ada. Para penyerang, yang oleh perusahaan diyakini sebagai "hacker yang disponsori negara", meretas data pengguna Yahoo berupa nama asli, alamat email, tanggal lahir dan nomor telepon dari 500 juta pengguna. Yahoo mengklaim bahwa sebagian besar kata sandi yang dicuri dilindungi dengan hash.
-                                Pada Desember 2016, Yahoo mengungkapkan pelanggaran lain dari tahun 2013 oleh penyerang berbeda yang membahayakan nama, tanggal lahir, alamat email dan kata sandi, serta pertanyaan dan jawaban keamanan 1 miliar akun pengguna. Yahoo merevisi perkiraan itu pada Oktober 2017 untuk memasukkan semua 3 miliar akun penggunanya.
+                                Pada Desember 2016, Yahoo mengungkapkan pelanggaran lain dari tahun 2013 oleh penyerang berbeda yang membahayakan nama, tanggal lahir, alamat email dan kata sandi, serta pertanyaan dan jawaban keamanan 1 miliar akun pengguna. <span id="dots">...</span><span id="more"> Yahoo merevisi perkiraan itu pada Oktober 2017 untuk memasukkan semua 3 miliar akun penggunanya.
                                 Saat pengumuman peretasan data itu, Yahoo sedang dalam proses akuisisi oleh Verizon, yang akhirnya membayar US$4,48 miliar untuk bisnis internet inti Yahoo. Pelanggaran itu menghancurkan nilai perusahaan.
-                                Akibat peretasan data itu, Yahoo digugat class action karena dianggap lalai melindungi data konsumen. Pada Oktober 2019, Yahoo mengumumkan mengalokasikan dana Rp1,65 triliun untuk ganti rugi kepada pengguna yang terdampak.  Yahoo menawarkan uang pengganti hingga US$358 per akun atau setara Rp 5 juta (asumsi US$1 = Rp 14.000) kepada pengguna yahoo yang emailnya diretas  hacker.</p>
+                                Akibat peretasan data itu, Yahoo digugat class action karena dianggap lalai melindungi data konsumen. Pada Oktober 2019, Yahoo mengumumkan mengalokasikan dana Rp1,65 triliun untuk ganti rugi kepada pengguna yang terdampak.  Yahoo menawarkan uang pengganti hingga US$358 per akun atau setara Rp 5 juta (asumsi US$1 = Rp 14.000) kepada pengguna yahoo yang emailnya diretas  hacker.</span></p>
+                                <button onclick="myFunction()" id="myBtn">Read more</button>
                             <button class="btn bg-warning text-drak"><a href="https://www.bing.com/search?q=informasi+tentang+kali+linux+hacking&qs=n&form=QBRE&sp=-1&pq=informasi+tentang+kali+linux+hac&sc=0-32&sk=&cvid=56AEE81ECB864C05AAAAE2C2C8C27B5D&ghsh=0&ghacc=0&ghpl="></a>Informasi Lengkapnya</button>
                         </div>
                     </div>
@@ -232,10 +267,11 @@
                                 Banyak pemula yang mencoba OS ini agar terlihat keren seperti hacker, namun pada akhirnya tidak dapat memaksimalkan yang ada di dalamnya.
                                 Sistem Operasi ini memang kurang cocok untuk digunakan para pemula yang belum terlalu mengenal tentang Linux atau Cyber Security.
                                 Selain itu, akibat populernya OS ini, sejumlah orang menggunakannya untuk tujuan kejahatan seperti tindakan Hacking dan lainnya yang bisa berujung kasus kriminal.
-                                Dilansir dari kali.org, Kali Linux adalah Distro Linux yang bersifat Open Source (gratis dan bebas dikembangkan, red) dan berbasis Debian.
+                                Dilansir dari kali.org, <span id="dots">...</span><span id="more"> Kali Linux adalah Distro Linux yang bersifat Open Source (gratis dan bebas dikembangkan, red) dan berbasis Debian.
                                 OS ini ditujukan untuk berbagai tugas keamanan informasi seperti Penetration Testing, Security Research, Computer Forensics dan Reverse Engineering.
                                 Pada tahun 2013, BackTrack kemudian berubah nama menjadi Kali Linux, yang secara arsitektur masih berbasis Ubuntu atau Debian. <br> Kali Linux merupakan Distro dari Sistem Operasi Linux yang ditujukan untuk memantau keamanan jaringan dan juga Ethical Hacking.
-                                Jika digunakan untuk hal positif, Kali Linux dapat membantu menangani masalah keamanan pada suatu sistem. Sedangkan, jika digunakan untuk hal negatif, Kali Linux dapat juga menjadi alat untuk melakukan tindak kriminal.</p>
+                                Jika digunakan untuk hal positif, Kali Linux dapat membantu menangani masalah keamanan pada suatu sistem. Sedangkan, jika digunakan untuk hal negatif, Kali Linux dapat juga menjadi alat untuk melakukan tindak kriminal.</span></p>
+                                <button onclick="myFunction()" id="myBtn">Read more</button>
                             <button class="btn bg-warning text-drak"><a href="https://www.sman57jakarta.sch.id/blog/kali-linux-sistem-operasi-mengerikan-yang-sering-digunakan-hacker/#:~:text=Kali%20Linux%20merupakan%20Distro%20dari%20Sistem%20Operasi%20Linux,dapat%20juga%20menjadi%20alat%20untuk%20melakukan%20tindak%20kriminal."></a>Informasi Lengkapnya</button>
                         </div>
                     </div>
@@ -269,132 +305,217 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <img src="Ikmal.jpeg" alt="ikmal" class="img-fluid rounded-circle" width="100px">
-                                <h3 class="card-title py-2">IKMAL AKBAR AMIRULLAH</h3>
-                                <p class="card-text">Saya adalah pribadi yang penasaran di dunia teknologi</p>
-    
-                                <p class="sosial">
-                                    <i class=""bi bi-github text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                </p>
+                <div class="col">
+                    <div class="row justify-content-center align-items-center my-4">
+                        <div class="col-12 col-md-6 col-lg-3 mx-auto my-auto">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src="Ikmal.jpeg" alt="ikmal" class="img-fluid rounded-circle" width="100px">
+                                    <h3 class="card-title py-2">IKMAL AKBAR AMIRULLAH</h3>
+                                    <p class="card-text">Saya adalah pribadi yang penasaran di dunia teknologi</p>
+        
+                                    <p class="sosial">
+                                        <ul class="justify-content-center align-items-start text-start align-self-start">
+                                            <li class="hide bi bi-whatsapp text-drak d-flex">
+                                                <div class="d-flex flex-row justify-content-start">
+                                                    <img src="whatsapp.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small class="tex-sm-start"> Hi, I`m Using Whatsapp</small></a>
+                                                </div>
+                                            </li>
+                                            <li class="hide bi bi-instragram text-drak">
+                                                <div class="d-flex flex-row justify-content-start ">
+                                                    <img src="twitter.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Twitter </small></a>
+                                                </div>
+                                            </li>
+                                            <li class="hide bi bi-instragram text-drak" >
+                                                <div class="d-flex flex-row justify-content-start ">
+                                                    <img src="github.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Github </small></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mx-auto my-auto">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src="tri22 (2).jpeg" alt="" class="img-fluid rounded-circle" width="100px">
+                                    <h3 class="card-title py-2">Trii jum'adilah</h3>
+                                    <p class="card-text">Nilai bukan bagian terpeting tapi etika dan etitud yang terpenting</p>
+        
+                                    <p class="sosial">
+                                        <ul class="justify-content-center align-items-start text-start align-self-start">
+                                            <li class="hide bi bi-whatsapp text-drak d-flex">
+                                                <div class="d-flex flex-row justify-content-start">
+                                                    <img src="whatsapp.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small class="tex-sm-start"> Hi, I`m Using Whatsapp</small></a>
+                                                </div>
+                                            </li>
+                                            <li class="hide bi bi-instragram text-drak">
+                                                <div class="d-flex flex-row justify-content-start ">
+                                                    <img src="twitter.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Twitter </small></a>
+                                                </div>
+                                            </li>
+                                            <li class="hide bi bi-instragram text-drak" >
+                                                <div class="d-flex flex-row justify-content-start ">
+                                                    <img src="facebook.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Facebook </small></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mx-auto my-auto">
+                            <div class="card text-center">
+                                <div class="card-body" >
+                                    <img src="Alan.jpeg" alt="" class="img-fluid rounded-circle" width="170px">
+                                    <h3 class="card-title py-2">Michael Alan</h3>
+                                    <p class="card-text">Programming Adalah Jalan Ninja Ku</p>
+        
+                                    <p class="sosial">
+                                        <ul class="justify-content-center align-items-start text-start align-self-start">
+                                            <li class="hide bi bi-whatsapp text-drak d-flex">
+                                                <div class="d-flex flex-row justify-content-start">
+                                                    <img src="whatsapp.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small class="tex-sm-start"> Hi, I`m Using Whatsapp</small></a>
+                                                </div>
+                                            </li>
+                                            <li class="hide bi bi-instragram text-drak">
+                                                <div class="d-flex flex-row justify-content-start ">
+                                                    <img src="twitter.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Twitter </small></a>
+                                                </div>
+                                            </li>
+                                            <li class="hide bi bi-instragram text-drak" >
+                                                <div class="d-flex flex-row justify-content-start ">
+                                                    <img src="facebook.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Facebook </small></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <img src="Alan.jpeg" alt="" class="img-fluid rounded-circle" width="100px">
-                                <h3 class="card-title py-2">Michael Alan</h3>
-                                <p class="card-text">Programming Adalah Jalan Ninja Ku</p>
-    
-                                <p class="sosial">
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                </p>
+                    <div class="row justify-content-center px-3">
+                        <div class="col-12 col-md-6 col-lg-3 my-auto mx-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src="fifi.jpeg" alt="" class="img-fluid rounded-circle" width="100px">
+                                    <h3 class="card-title py-2">Fifi</h3>
+                                    <p class="card-text">saya adalah suka dalam bidang game</p>
+        
+                                    <p class="sosial">
+                                        <ul class="justify-content-start align-items-start text-start align-self-start">
+                                            <li class="hide bi bi-whatsapp text-drak d-flex">
+                                                <div class="d-flex flex-row justify-content-start">
+                                                    <img src="whatsapp.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small class="tex-sm-start"> Hi, I`m Using Whatsapp</small></a>
+                                                </div>
+                                            </li>
+                                            <li class="hide bi bi-instragram text-drak">
+                                                <div class="d-flex flex-row justify-content-start ">
+                                                    <img src="twitter.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Twitter </small></a>
+                                                </div>
+                                            </li>
+                                            <li class="hide bi bi-instragram text-drak" >
+                                                <div class="d-flex flex-row justify-content-start ">
+                                                    <img src="facebook.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                    <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Facebook </small></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 my-auto mx-4" >
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src="ramdan (3).jpeg" alt="" class="img-fluid rounded-circle mx-2" width="120px" >
+                                    <h3 class="card-title py-2">Ramdan Afiqisyah</h3>
+                                    <p class="card-text">Tetaplah hidup walapun tidak berguna </p>
+                                    <ul class="justify-content-start align-items-start text-start align-self-start">
+                                        <li class="hide bi bi-whatsapp text-drak d-flex">
+                                            <div class="d-flex flex-row justify-content-start">
+                                                <img src="whatsapp.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                <a href="" class="px-1 text-sm-start d-flex"><small class="tex-sm-start"> Hi, I`m Using Whatsapp</small></a>
+                                            </div>
+                                        </li>
+                                        <li class="hide bi bi-instragram text-drak">
+                                            <div class="d-flex flex-row justify-content-start ">
+                                                <img src="twitter.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Twitter </small></a>
+                                            </div>
+                                        </li>
+                                        <li class="hide bi bi-instragram text-drak" >
+                                            <div class="d-flex flex-row justify-content-start ">
+                                                <img src="facebook.png" alt="" class="img-fluid rounded-circle" width="30px"></img>
+                                                <a href="" class="px-1 text-sm-start d-flex"><small> Hi, I`m Using Facebook </small></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <img src="tri22 (2).jpeg" alt="" class="img-fluid rounded-circle" width="100px">
-                                <h3 class="card-title py-2">Trii jum'adilah</h3>
-                                <p class="card-text">Nilai bukan bagian terpeting tapi etika dan etitud yang terpenting</p>
-    
-                                <p class="sosial">
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                </p>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <img src="fifi.jpeg" alt="" class="img-fluid rounded-circle" width="100px">
-                                <h3 class="card-title py-2">Fifi</h3>
-                                <p class="card-text">saya adalah suka dalam bidang game</p>
-    
-                                <p class="sosial">
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                </p>    
-                            </div>
-                        </div>
-                    </div>
-                 <div class="ramdan" >
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <img src="ramdan (3).jpeg" alt="" class="img-fluid rounded-circle" width="100px" >
-                                <h3 class="card-title py-2">Ramdan afiqisyah</h3>
-                                <p class="card-text">Tetaplah hidup walapun tidak berguna s
-                                <p class="sosial">
-                                    <i class="https://web.whatsapp.com/"bi bi-whatsapp text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                    <i class=""bi bi-instragram text-drak mx-1></i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                 </div>
                 </div>
             </div>
-        </div>
-       </div>
-      </section>
-      <!-- Maps -->
-      <div class="maps">
-          <aritcle><b>Maps Bsi Pemuda</b></aritcle>
-        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5399071723295!2d106.8844716143099!3d-6.192259362389943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4eba2c078a3%3A0x3e10b38445474a73!2sUniversitas%20Bina%20Sarana%20Informatika%20Kampus%20Pemuda%20(UBSI%20Pemuda)!5e0!3m2!1sid!2sid!4v1669395046188!5m2!1sid!2sid" width="85%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-      </div>
-      <!-- Contact section -->
-      <section id="contact" class="contact section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center pb-5">
-                        <h2>Contact Us</h2>
-                        <p>Jika ada masukan atau mau menghubungin kami isi di bawah ini :D
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row m-0">
-                <div class="flex col-md-12 p-0 pt-4 p-4 pb-4">
-                  <form action="#" class="bg-light p-4.m-auto">
-                    <div class="row">
-                        <div class="col-md-12">
-                         <div class="mb-3">
-                                <input type="text" class="form-control" required placeholder="Your Full name">
-                            </div>
-                        </div>
-                        <div class="col-md-12 ">
+           </div>
+          </div>
+         </section>
+         <!-- Maps -->
+         <div class="maps">
+             <aritcle><b>Maps BSI Pemuda</b></aritcle>
+           <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5399071723295!2d106.8844716143099!3d-6.192259362389943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4eba2c078a3%3A0x3e10b38445474a73!2sUniversitas%20Bina%20Sarana%20Informatika%20Kampus%20Pemuda%20(UBSI%20Pemuda)!5e0!3m2!1sid!2sid!4v1669395046188!5m2!1sid!2sid" width="85%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+         </div>
+         <!-- Contact section -->
+         <section id="contact" class="contact section-padding">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div class="section-header text-center pb-5">
+                           <h2>Contact Us</h2>
+                           <p>Jika ada masukan atau mau menghubungin kami isi di bawah ini :D
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="row m-0">
+                   <div class="flex col-md-12 p-0 pt-4 p-4 pb-4">
+                     <form action="#" class="bg-light p-4.m-auto">
+                       <div class="row">
+                           <div class="col-md-12">
                             <div class="mb-3">
-                                <input type="email" class="form-control" required placeholder="Your Email">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                               <textarea rows="3" required class="form-control" placeholder="Your Query Hare"></textarea>
-                            </div>
-                        </div>
-                        <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
-                    </div>
-                  </form>
-                </div>
-            </div>
-        </div>
-      </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="gelap.js"></script>
-  </body>
-</html>
+                                   <input type="text" class="form-control" required placeholder="Your Full name">
+                               </div>
+                           </div>
+                           <div class="col-md-12 ">
+                               <div class="mb-3">
+                                   <input type="email" class="form-control" required placeholder="Your Email">
+                               </div>
+                           </div>
+                           <div class="col-md-12">
+                               <div class="mb-3">
+                                  <textarea rows="3" required class="form-control" placeholder="Your Query Hare"></textarea>
+                               </div>
+                           </div>
+                           <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+                       </div>
+                     </form>
+                   </div>
+               </div>
+           </div>
+         </section>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+       <script src="gelap.js"></script>
+     </body>
+   </html>
